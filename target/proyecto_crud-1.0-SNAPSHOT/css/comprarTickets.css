@@ -1,0 +1,105 @@
+.btn-form{
+    display: flex;
+    width: 100%;
+    margin: 1rem 0;
+    justify-content: space-between;
+}
+
+.btn-op-form{
+    width: 48%;
+}
+
+.titulos-venta{
+    text-align: center;
+}
+
+.titulo-venta{
+    font-size: 1rem;
+}
+
+.tarjetas-opciones{
+    max-width: 75%;
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 0 auto;
+}
+
+.tarjeta-opcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: content-box;
+    margin: 0 auto;
+    justify-content: center;
+    border: 1px solid red;
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+    text-align: center;
+    width: 26%;
+    height: 15rem;
+}
+
+.tarjeta-opcion span{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1.5rem;
+}
+
+.input-email{
+    padding: 0.5rem;
+    border: solid 1px #bdbdbd;
+    border-radius: 5px;
+}
+
+.cant-cat{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.cat{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.option{
+    width: 100%;
+    padding: 0.5rem;
+    border: solid 1px #bdbdbd;
+    border-radius: 5px;
+    margin: 0.7rem 0;
+}
+
+.cate{
+    margin-left: -0.99rem;
+}
+
+.total-compra{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: rgb(150, 214, 233);
+    border-radius: .3rem;
+    height: 2.92rem;
+}
+
+/* .total-compra p{
+    height: 100%;
+    align-items: center;
+} */
+
+.total{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.total-compra span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}

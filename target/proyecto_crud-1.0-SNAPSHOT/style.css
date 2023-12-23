@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+/* estilado del nav */
+
+.contenedor{
+    background-color: rgb(49, 54, 58);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.img-text{
+    text-align: center;
+    margin-left: 5rem;
+}
+
+.img{
+    width: 100px;
+    height: 60px;
+}
+
+.title{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.contenedor-links{
+    margin: auto 0;
+    margin-right: 5rem;
+}
+
+.links{
+    padding: 0.4rem;
+    text-decoration: none;
+    color: rgb(184, 183, 183);
+}
+
+.primero{
+    color: #ffffff;
+}
+
+.ultimo{
+    color: rgb(6, 204, 6);
+    padding-right: 2rem;
+}
+
+/* Estilado de la sección de oradores */
+
+.contenedor-oradores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 2rem; */
+}
+
+.primer-comentario{
+    text-align: center;
+    
+}
+
+.segundo-comentario{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.cards-oradores{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 1rem;
+}
+
+.card{
+    width: 28.125rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.card img{
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.dato-orador{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.caracteristica{
+    display: flex;
+}
+
+.nombre{
+    margin-top: -1rem;
+}
+
+.caracteristica p{
+    padding: 0 0.3rem ;
+    margin-right: 1rem;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.js{
+    background-color: rgb(248, 207, 71);
+    color: #000000;
+}
+
+.react{
+    background-color: rgb(20, 143, 192);
+    color: #ffffff;
+}
+
+.neg{
+    background-color: rgb(78, 83, 87);
+    color: #ffffff;
+}
+
+.start{
+    background-color: rgb(187, 33, 6);
+    color: #ffffff;
+}
+
+.descripcion{
+    margin-top: 1rem;
+    letter-spacing: 1px;
+}
+
+/* Tercera sección */
+
+.contenedor-playa{
+    margin-top: 1rem;
+    max-width: 100%;
+    display: flex;
+}
+
+.contenedor-playa img{
+    max-width: 50%;
+    height: auto;
+}
+
+.contenedor-textos{
+    color: #ffffff;
+    margin-left: 1px;
+    background-color: rgb(49, 54, 58);
+    padding: 1.5rem;
+}
+
+.contenedor-textos h4{
+    font-size: 2rem;
+}
+
+.titulos-oradores p{
+    margin-bottom: -0.3rem;
+}
+
+.contenedor-textos button{
+    background-color: rgb(49, 54, 58);
+    color: #ffffff;
+    padding: 0.5rem;
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    width: 100px;
+}
+
+/* sección formulario */
+
+p span{
+    border-bottom: dashed 0.1rem #000000;
+}
+
+.form{
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.nom-ape{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.nom-ape input{
+    width: 48%;
+    padding: 0.5rem;
+    border: solid 1px #bdbdbd;
+    border-radius: 5px;
+}
+
+.form textarea{
+    padding: 0.5rem;
+    border: solid 1px #bdbdbd;
+    border-radius: 5px;
+}
+
+.text-desc{
+    color: #858585;
+    font-size: 0.9rem;
+}
+
+.form button{
+    color: #ffffff;
+    background-color: rgb(106, 184, 83);
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 5px;
+}
+
+/* sección footer */
+
+footer{
+    margin-top: 1rem;
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right, #142f3b, #41748a);
+    /* background-color: #142f3b; */
+    height: 70px;
+}
+
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
